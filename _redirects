@@ -1,0 +1,6 @@
+# Redirecionar URLs antigas com .html para URLs limpas
+/sobre.html        /sobre        301
+/servicos.html     /servicos     301
+/contato.html      /contato      301
+/blog/index.html   /blog/        301
+/links.html        /bio          301
