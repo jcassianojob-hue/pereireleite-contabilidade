@@ -16,16 +16,42 @@
   <meta property="og:description" content="Escritório de contabilidade em Araçatuba-SP. Contabilidade empresarial, abertura de empresa, planejamento tributário. Atendemos toda a região noroeste paulista." />
   <meta property="og:image" content="https://www.pereiraleiteassessoria.com.br/og-image.jpg" />
 
-  <!-- JSON-LD -->
+  <!-- Performance: preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contador em Araçatuba-SP | Pereira Leite Assessoria Contábil" />
+  <meta name="twitter:description" content="Escritório de contabilidade em Araçatuba-SP com 18 anos de experiência. Contabilidade empresarial, abertura de empresa e planejamento tributário." />
+  <meta name="twitter:image" content="https://www.pereiraleiteassessoria.com.br/og-image.jpg" />
+
+  <!-- PWA / Theme -->
+  <meta name="theme-color" content="#306245" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Geo tags -->
+  <meta name="geo.region" content="BR-SP" />
+  <meta name="geo.placename" content="Araçatuba" />
+  <meta name="geo.position" content="-21.2089;-50.4253" />
+  <meta name="ICBM" content="-21.2089, -50.4253" />
+
+  <!-- JSON-LD: AccountingService completo -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "AccountingService",
+    "@id": "https://www.pereiraleiteassessoria.com.br/#organization",
     "name": "Pereira Leite Assessoria Contábil",
-    "description": "Escritório de contabilidade e assessoria financeira em Araçatuba-SP especializado em empresas e empreendedores. Oferecemos contabilidade empresarial, abertura de empresa, planejamento tributário, departamento fiscal e pessoal. Atendemos Araçatuba, Birigui, Penápolis, Andradina, Lins e toda a região noroeste paulista.",
+    "alternateName": "Pereira Leite Contabilidade",
+    "description": "Escritório de contabilidade fundado em 2007 em Araçatuba-SP. Especialistas em contabilidade empresarial, abertura de empresa, planejamento tributário, departamento fiscal e pessoal. Atendemos empresas, MEI e profissionais liberais em Araçatuba, Birigui, Penápolis, Andradina, Lins e toda a região noroeste paulista.",
     "url": "https://www.pereiraleiteassessoria.com.br",
+    "logo": "https://www.pereiraleiteassessoria.com.br/img/favicon.png",
+    "image": "https://www.pereiraleiteassessoria.com.br/og-image.jpg",
     "telephone": "+55-18-99603-8823",
     "email": "contato@pereiraleiteassessoria.com.br",
+    "foundingDate": "2007",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Rua Antônio Afonso de Toledo, 1103",
@@ -34,13 +60,115 @@
       "postalCode": "16015-270",
       "addressCountry": "BR"
     },
-    "openingHours": "Mo-Fr 08:00-17:00",
-    "areaServed": ["Araçatuba", "Birigui", "Penápolis", "Andradina", "Lins", "Araçatuba e região noroeste paulista"],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -21.2089,
+      "longitude": -50.4253
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Araçatuba", "sameAs": "https://www.wikidata.org/wiki/Q781983" },
+      { "@type": "City", "name": "Birigui" },
+      { "@type": "City", "name": "Penápolis" },
+      { "@type": "City", "name": "Andradina" },
+      { "@type": "City", "name": "Lins" },
+      { "@type": "AdministrativeArea", "name": "Região Noroeste Paulista" }
+    ],
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "CRC",
+      "name": "CRC/SP 356.790/O-0",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Conselho Regional de Contabilidade de São Paulo"
+      }
+    },
     "sameAs": [
       "https://www.instagram.com/pereiraleite",
       "https://www.linkedin.com/company/pereiraleite"
     ],
-    "hasCredential": "CRC/SP 356.790/O-0"
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "3"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "João" },
+        "reviewBody": "Mudei de escritório depois de anos e foi a melhor decisão que tomei. A equipe da Pereira Leite é proativa, responde rápido e me ajudou a reduzir muito o imposto que eu pagava. Recomendo sem hesitar.",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Vanessa" },
+        "reviewBody": "Abri minha empresa com a Pereira Leite do zero. Eles explicaram cada passo, escolheram o melhor regime tributário para o meu caso e estão sempre disponíveis para tirar dúvidas. Atendimento excelente.",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Cinthia" },
+        "reviewBody": "A Pereira Leite organizou toda a parte financeira da minha empresa que estava uma bagunça. Hoje tenho relatórios claros todo mês e consigo tomar decisões com muito mais segurança.",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: FAQPage (AEO — respostas diretas para Google SGE e IA) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto custa um contador em Araçatuba?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O valor varia conforme o porte e regime tributário da empresa. Na Pereira Leite Assessoria Contábil, o honorário é personalizado após diagnóstico gratuito. Entre em contato pelo (18) 99603-8823 para uma proposta sem compromisso."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual o melhor regime tributário para minha empresa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do faturamento, margem de lucro e atividade. As opções principais são Simples Nacional (faturamento até R$ 4,8 mi), Lucro Presumido e Lucro Real. Nossa equipe faz a simulação completa sem custo para escolher a opção que economiza mais impostos legalmente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como abrir uma empresa em Araçatuba-SP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O processo envolve escolha do tipo jurídico (MEI, ME, EPP), registro na Junta Comercial, CNPJ na Receita Federal, inscrição estadual e alvará municipal. A Pereira Leite cuida de todo esse processo, orientando o cliente desde a escolha do regime até o primeiro mês de operação."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "A Pereira Leite atende fora de Araçatuba?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Além da região noroeste paulista (Birigui, Penápolis, Andradina, Lins), atendemos empresas de todo o Brasil de forma 100% digital. Toda a comunicação e entrega de documentos é feita online."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que é CRC e por que é importante escolher um contador com CRC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O CRC (Conselho Regional de Contabilidade) é o registro obrigatório para exercício legal da profissão contábil no Brasil. O CRC da Pereira Leite é o SP 356.790/O-0. Contratar um contador sem CRC ativo é ilegal e coloca sua empresa em risco fiscal."
+        }
+      }
+    ]
   }
   </script>
 

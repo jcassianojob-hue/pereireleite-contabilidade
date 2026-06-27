@@ -1,0 +1,24 @@
+{
+  "name": "Pereira Leite Assessoria Contábil",
+  "short_name": "Pereira Leite",
+  "description": "Escritório de contabilidade em Araçatuba-SP. Contabilidade empresarial, abertura de empresa e planejamento tributário.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#306245",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/img/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["finance", "business"],
+  "scope": "/"
+}
