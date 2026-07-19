@@ -987,6 +987,14 @@ ul { list-style: none; }
   /* Services */
   .services-grid { grid-template-columns: 1fr; }
 
+  /* Testimonials */
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .testimonials-header { margin-bottom: 32px; }
+
+  /* Segments */
+  .segments-grid { grid-template-columns: 1fr; }
+  .segments-header { margin-bottom: 32px; }
+
   /* About */
   .about .container { gap: 32px; }
 
