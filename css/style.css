@@ -779,6 +779,8 @@ ul { list-style: none; }
 .service-full-card {
   background: var(--white);
   border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
   border-radius: var(--radius-md);
   padding: 36px 32px;
   transition: all .25s;
@@ -787,7 +789,8 @@ ul { list-style: none; }
 .service-full-card .service-icon { margin-bottom: 20px; }
 .service-full-title { font-size: 22px; font-weight: 700; color: var(--black); margin-bottom: 12px; }
 .service-full-desc { font-size: 15px; color: var(--gray-500); line-height: 1.7; margin-bottom: 20px; }
-.service-includes { display: flex; flex-direction: column; gap: 8px; }
+.service-includes { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.service-full-btn { margin-top: 24px; align-self: flex-start; }
 .service-includes li {
   display: flex;
   align-items: center;
