@@ -4,3 +4,10 @@
 /contato.html      /contato      301
 /blog/index.html   /blog/        301
 /links.html        /bio          301
+
+# Blog artigos — URLs limpas (sem .html)
+/blog/simples-nacional-2026.html       /blog/simples-nacional-2026       301
+/blog/indicadores-financeiros.html     /blog/indicadores-financeiros     301
+/blog/quando-deixar-de-ser-mei.html   /blog/quando-deixar-de-ser-mei    301
+/blog/e-social-2026.html               /blog/e-social-2026               301
+/blog/lucro-presumido-x-lucro-real.html /blog/lucro-presumido-x-lucro-real 301
